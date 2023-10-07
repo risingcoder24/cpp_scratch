@@ -4,7 +4,8 @@ using namespace std;
 //fixed number of rows and columns
 
 int main(){
-
+    
+//Rectangle
     int n;
 
     cin>>n;
@@ -18,7 +19,8 @@ int main(){
         cout<<endl;
     }
     cout<<endl;
-
+    
+//Numbers
     for(int i = 1; i<=n; i++){
         for(int j = 1;j<=n;j++){
             cout<<i<<" ";
@@ -49,12 +51,11 @@ int main(){
             cout<<k<<"    "<<"   ";
             k++;
         }
-        cout<<endl;
-      
-        
+        cout<<endl;  
     }
     cout<<endl;
-
+    
+//Inverted Right Triangle
     for(int i = 1; i<=n; i++){
         for(int j = i; j<=n; j++){
             cout<<"*"<<" ";
@@ -62,7 +63,8 @@ int main(){
         cout<<endl;
     }
     cout<<endl;
-
+    
+//Right Triangle
     for(int i = 1; i<=n; i++){
         for(int j = 1; j<=i; j++){
             cout<<"*"<<" ";
